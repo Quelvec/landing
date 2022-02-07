@@ -39,7 +39,7 @@ a:hover{
     background-image: linear-gradient(rgb(0 0 0 / 30%), rgb(0 0 0 / 13%)), url(./imagens/background.jpg);
     background-size: cover;
     background-position: center;
-    padding: 150px;
+    padding: 150px 0;
     text-align: center;
 }
 
@@ -93,31 +93,31 @@ text-align: center;
 }
 
 @media (max-width: 800px) {
-    .cards {
-      grid-template-columns: 1fr;
-    }
-    
-    .card-img {
-      width: auto;
-    }
-  }
-    
-  /* Container media queries */
-  @media (min-width: 500px) {
-    .container {
-      width: 400px;
-    }
+  .cards {
+    grid-template-columns: 1fr;
   }
   
-  
-  @media (min-width: 800px) {
-    .container {
-      width: 600px;
-    }
+  .card-white {
+    width: auto;
   }
+}
   
-  @media (min-width: 1000px) {
-    .container {
-      width: 800px;
-    }
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
   }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
